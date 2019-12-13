@@ -1,0 +1,38 @@
+{
+  "name": "koa-api",
+  "version": "1.0.0",
+  "description": "使用 koa2写的后台接口",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon -w src src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:jxmlearner/koa-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.3",
+    "core-util-is": "^1.0.2",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.4.0",
+    "kcors": "^2.2.2",
+    "koa": "^2.6.2",
+    "koa-body": "^4.0.6",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^3.5.1",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "log4js": "^3.0.6",
+    "mongoose": "^5.6.11",
+    "nightmare": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
